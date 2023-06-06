@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "title": "Zrobić projekt",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "title": "Sprawdzić projekt",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "title": "Wysłać projekt",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "title": "Zaliczyć zajęcia z React?",
+      "completed": false,
+      "id": 4
+    }
+  ]
+}
