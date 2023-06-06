@@ -1,14 +1,9 @@
 import React from "react";
 
-
-function Todo({ todo, onDelete, onToggle, index  }) {
+function Todo({ todo, onDelete, onToggle, index }) {
   return (
     <li>
-      {/* <span onClick={() => onToggle(todo.id)} className={todo.completed ? "completed" : ""}>
-        {todo.completed ? " ✔️" : " ❌"}
-        {todo.title}
-      </span> */}
-      <span className={todo.completed ? 'completed' : ''}>
+      <span className={todo.completed ? "completed" : ""}>
         {index}. {todo.title}
       </span>
       <div className="button-container">
